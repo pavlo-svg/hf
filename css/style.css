@@ -1,0 +1,23 @@
+.box-item{
+    width: 100px;
+    height: 200px;
+    background-color: yellow;
+    outline: 1px dotted green;
+    /* margin-right: 10px;
+    margin-bottom: 20px; */
+
+}
+    /* .box-item:nth-child(3n) {
+    margin-right: 0;
+} */
+.box-list{
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 10PX; */
+    column-gap: 10px;
+    row-gap: 20px;
+    background-color: lightblue;
+    outline: 2px solid tomato;
+    
+}
